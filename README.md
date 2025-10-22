@@ -1,19 +1,46 @@
-# kubernetes-labs
-Kubernetes hands-on projects focusing on container deployment, scaling, and orchestration
-Includes AKS, EKS, and GKE configurations.
+# 🐳 Kubernetes Labs
 
-## Topics Covered
-- Docker Basics
-- Deployments, Pods, and Services
-- Scaling and Rolling Updates
-- ConfigMaps and Secrets
-- Ingress and Load Balancing
+This repository documents my hands-on learning journey with **Kubernetes**, covering cluster management, deployments, and container orchestration.
 
-## Folder Structure
+---
+
+### 🧩 Objectives
+- Learn how to deploy and manage applications using **Kubernetes**  
+- Understand **pods**, **deployments**, **services**, and **ingress controllers**  
+- Explore **container orchestration** using **kubectl** and **YAML manifests**  
+- Integrate with **Terraform** and **Azure Kubernetes Service (AKS)**  
+
+---
+
+### 📘 Topics Covered
+- Cluster setup and configuration  
+- Deployments, ReplicaSets, and Services  
+- ConfigMaps, Secrets, and Volumes  
+- Ingress and Networking  
+- Monitoring and Scaling  
+- CI/CD integration with Terraform and GitHub Actions  
+
+---
+
+### 📁 Repository Structure
 kubernetes-labs/
-- azure-aks/
-- aws-eks/
-- gcp-gke/
+- cluster-setup/
+- deployments/
+- networking/
+- monitoring/
 
-## Goal
-Learn and apply Kubernetes fundamentals using managed services across major clouds.
+Each folder includes:
+- YAML files and explanations  
+- `kubectl` commands  
+- Optional architecture diagrams  
+
+---
+
+### 🔗 Related Repositories
+- [Azure Labs](https://github.com/dgeraldmagsinol/azure-labs)
+- [Terraform Labs](https://github.com/dgeraldmagsinol/terraform-labs)
+- [Back to My Profile](https://github.com/dgeraldmagsinol)
+
+---
+
+📅 **Status:** In progress — expanding Kubernetes practice with Azure AKS integration.
